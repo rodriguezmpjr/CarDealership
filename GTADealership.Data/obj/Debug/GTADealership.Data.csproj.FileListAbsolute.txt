@@ -1,0 +1,17 @@
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\bin\Debug\GTADealership.Data.dll.config
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\bin\Debug\GTADealership.Data.dll
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\bin\Debug\GTADealership.Data.pdb
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\bin\Debug\EntityFramework.dll
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\bin\Debug\GTADealership.Models.dll
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\bin\Debug\GTADealership.Models.pdb
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\bin\Debug\GTADealership.Models.dll.config
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\bin\Debug\EntityFramework.xml
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\obj\Debug\GTADealership.Data.csprojAssemblyReference.cache
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\obj\Debug\GTADealership.Data.Migrations.init.resources
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\obj\Debug\GTADealership.Data.csproj.GenerateResource.cache
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\obj\Debug\GTADealership.Data.csproj.CoreCompileInputs.cache
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\obj\Debug\GTADealership.Data.csproj.CopyComplete
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\obj\Debug\GTADealership.Data.dll
+C:\Users\mrodr\Documents\Bitbucket\michael-rodriguez-individual-work\GTADealership\GTADealership.Data\obj\Debug\GTADealership.Data.pdb

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F8C006B3-65F4-4511-92A9-3974A292FE4C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GTADealership.Data</RootNamespace>
+    <AssemblyName>GTADealership.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EF Models\GTADealershipEntities.cs" />
+    <Compile Include="EF Models\PurchaseTransactionEF.cs" />
+    <Compile Include="EF Models\SpecialEF.cs" />
+    <Compile Include="EF Models\StateEF.cs" />
+    <Compile Include="EF Models\VModelEF.cs" />
+    <Compile Include="EFRepos\VehicleRepoEF.cs" />
+    <Compile Include="Factories\BodyStyleRepositoryFactory.cs" />
+    <Compile Include="Factories\ColorRepositoryFactory.cs" />
+    <Compile Include="Factories\CustomerRepositoryFactory.cs" />
+    <Compile Include="Factories\InteriorRepositoryFactory.cs" />
+    <Compile Include="Factories\MakeRepositoryFactory.cs" />
+    <Compile Include="Factories\PaymentTypeRepositoryFactory.cs" />
+    <Compile Include="Factories\PurchaseTransactionRepositoryFactory.cs" />
+    <Compile Include="Factories\StateRepositoryFactory.cs" />
+    <Compile Include="Factories\TransmissionRepositoryFactory.cs" />
+    <Compile Include="Factories\VehicleModelRepositoryFactory.cs" />
+    <Compile Include="Factories\VehicleRepositoryFactory.cs" />
+    <Compile Include="Interfaces\IBodyStyleRepository.cs" />
+    <Compile Include="Interfaces\IColorRepository.cs" />
+    <Compile Include="Interfaces\ICustomerRepository.cs" />
+    <Compile Include="Interfaces\IInteriorRepository.cs" />
+    <Compile Include="Interfaces\IMakeRepository.cs" />
+    <Compile Include="Interfaces\IPaymentTypeRepository.cs" />
+    <Compile Include="Interfaces\IPurchaseTransactionRepository.cs" />
+    <Compile Include="Interfaces\ITransmissionRepository.cs" />
+    <Compile Include="Interfaces\IVehicleModelRepository.cs" />
+    <Compile Include="Interfaces\IVehicleRepository.cs" />
+    <Compile Include="Migrations\201807151849396_init.cs" />
+    <Compile Include="Migrations\201807151849396_init.Designer.cs">
+      <DependentUpon>201807151849396_init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Mock Repos\BodyStyleRepositoryMock.cs" />
+    <Compile Include="Mock Repos\ColorRepositoryMock.cs" />
+    <Compile Include="Mock Repos\CustomerRepositoryMock.cs" />
+    <Compile Include="Mock Repos\InteriorRepositoryMock.cs" />
+    <Compile Include="Mock Repos\MakeRepositoryMock.cs" />
+    <Compile Include="Mock Repos\PaymentTypeRepositoryMock.cs" />
+    <Compile Include="Mock Repos\PurchaseTransactionRepositoryMock.cs" />
+    <Compile Include="Mock Repos\StateRepositoryMock.cs" />
+    <Compile Include="Mock Repos\TransmissionRepositoryMock.cs" />
+    <Compile Include="Mock Repos\VehicleModelRepositoryMock.cs" />
+    <Compile Include="Mock Repos\VehicleRepositoryMock.cs" />
+    <Compile Include="MockLists\GTABodyStyleList.cs" />
+    <Compile Include="MockLists\GTAColorList.cs" />
+    <Compile Include="MockLists\GTACustomerList.cs" />
+    <Compile Include="MockLists\GTAInteriorList.cs" />
+    <Compile Include="MockLists\GTAMakeList.cs" />
+    <Compile Include="MockLists\GTAPaymentTypeList.cs" />
+    <Compile Include="MockLists\GTAPurchaseTransactionList.cs" />
+    <Compile Include="MockLists\GTASpecialList.cs" />
+    <Compile Include="MockLists\GTAStateList.cs" />
+    <Compile Include="Interfaces\IStateRepository.cs" />
+    <Compile Include="MockLists\GTATransmissionList.cs" />
+    <Compile Include="MockLists\GTAVehicleList.cs" />
+    <Compile Include="MockLists\GTAVehicleModelList.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EF Models\BodyStyleEF.cs" />
+    <Compile Include="EF Models\ColorEF.cs" />
+    <Compile Include="EF Models\CustomerEF.cs" />
+    <Compile Include="EF Models\InteriorEF.cs" />
+    <Compile Include="EF Models\MakeEF.cs" />
+    <Compile Include="EF Models\PaymentTypeEF.cs" />
+    <Compile Include="EF Models\TransEF.cs" />
+    <Compile Include="EF Models\VehicleEF.cs" />
+    <Compile Include="EF Models\VehicleStatusEF.cs" />
+    <Compile Include="Settings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GTADealership.Models\GTADealership.Models.csproj">
+      <Project>{22d76cc6-3ae3-47dc-b83c-3247fcf0cc91}</Project>
+      <Name>GTADealership.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201807151849396_init.resx">
+      <DependentUpon>201807151849396_init.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
